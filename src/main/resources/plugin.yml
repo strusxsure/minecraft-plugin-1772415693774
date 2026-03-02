@@ -1,0 +1,14 @@
+main: com.stormai.soulboundsmp.SoulBoundSMP
+name: SoulBoundSMP
+version: 1.0
+api-version: 1.21
+author: StormAI
+website: https://github.com/StormAI/SoulBoundSMP
+permissions:
+  soulbound.admin:
+    description: Allows bypassing cooldowns or resetting revivals
+    default: op
+commands:
+  souls:
+    usage: /<command>
+    description: Open Souls menu to manage your abilities
